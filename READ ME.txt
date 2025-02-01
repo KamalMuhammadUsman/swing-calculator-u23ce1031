@@ -1,0 +1,32 @@
+Calculator Application
+
+A simple graphical calculator application built with Java Swing.
+
+Features
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Clear and backspace functionality
+- Support for decimal numbers
+- Error handling for division by zero
+
+Usage
+1. Run the application using the `main` method.
+2. Use the numerical buttons to enter numbers.
+3. Use the operator buttons (+, -, *, /) to perform calculations.
+4. Press the "=" button to display the result.
+5. Use the "C" button to clear the display.
+6. Use the "←" button to delete the last entered digit.
+
+Code Structure
+The code is organized into a single Java class, `Calculator`, which extends `JFrame`. The class contains:
+
+- A constructor that sets up the GUI components and layouts.
+- A `createStyledButton` method that creates custom-styled buttons.
+- A `ButtonClickListener` inner class that handles button click events.
+- A `calculate` method that performs arithmetic operations.
+- A `main` method that launches the application.
+
+Dependencies
+- Java Swing library (included in the JDK)
+
+License
+This code is released under the MIT License. Feel free to modify and distribute as needed.
